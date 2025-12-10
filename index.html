@@ -1,45 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Laff App – Official Page</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #fafafa; }
-    header { background: #111; color: #fff; padding: 40px 20px; text-align: center; }
-    section { padding: 20px; max-width: 900px; margin: auto; }
-    h2 { margin-top: 40px; }
-    .button { display: inline-block; padding: 12px 20px; background: #007aff; color: #fff; text-decoration: none; border-radius: 8px; }
-    footer { text-align: center; padding: 30px; color: #666; font-size: 14px; }
-  </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Laff App – Share the Fun</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #fafafa;
+            color: #222;
+        }
+        header {
+            background: #ff595e;
+            padding: 30px;
+            text-align: center;
+            color: white;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 42px;
+            letter-spacing: 1px;
+        }
+        .section {
+            padding: 40px 20px;
+            text-align: center;
+            max-width: 900px;
+            margin: auto;
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            width: 260px;
+            padding: 20px;
+        }
+        footer {
+            background: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-top: 50px;
+        }
+        a {
+            color: #ff595e;
+        }
+        .button {
+            padding: 12px 22px;
+            background: #ff595e;
+            color: white;
+            border-radius: 8px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 20px;
+            font-size: 18px;
+        }
+    </style>
 </head>
 <body>
+
 <header>
-  <h1>Laff App</h1>
-  <p>Laugh more. Live better.</p>
+    <h1>Laff App</h1>
+    <p>Where laughter lives.</p>
 </header>
 
-<section>
-  <h2>About Laff App</h2>
-  <p>Laff App brings you endless laughs through short funny clips, memes, and community-generated humor. Stay happy every day with the simplest entertainment app.</p>
+<section class="section">
+    <h2>What is Laff App?</h2>
+    <p>
+        Laff App is a fun and lightweight entertainment app designed to brighten your day.
+        Discover jokes, memes, short funny videos, and share laughs with friends.
+    </p>
+</section>
 
-  <h2>Key Features</h2>
-  <ul>
-    <li>Fresh funny content daily</li>
-    <li>Create and share your own humor</li>
-    <li>Simple, clean and fast interface</li>
-    <li>Like, comment and engage with the community</li>
-  </ul>
+<section class="section">
+    <h2>Features</h2>
+    <div class="features">
+        <div class="card">
+            <h3>😂 Daily Laughs</h3>
+            <p>Fresh jokes and memes updated regularly.</p>
+        </div>
+        <div class="card">
+            <h3>🎬 Fun Clips</h3>
+            <p>Short funny videos to boost your mood instantly.</p>
+        </div>
+        <div class="card">
+            <h3>📤 Share Instantly</h3>
+            <p>Send fun content to friends with one tap.</p>
+        </div>
+        <div class="card">
+            <h3>❤️ Favorites</h3>
+            <p>Save the funniest moments to revisit later.</p>
+        </div>
+    </div>
 
-  <h2>Screenshots</h2>
-  <p>Add your screenshots here when ready.</p>
+    <!-- Add App Store link here once ready -->
+    <a class="button" href="#" target="_blank">Download on App Store</a>
+</section>
 
-  <h2>Privacy Policy</h2>
-  <p><a href="#">View privacy policy</a></p>
+<section class="section">
+    <p>
+        Need help? <a href="support.html">Visit our support page</a>.
+    </p>
 </section>
 
 <footer>
-  <p>© Laff App</p>
+    <p>&copy; 2025 Laff App. All rights reserved.</p>
 </footer>
+
 </body>
 </html>
